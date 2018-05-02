@@ -12,7 +12,7 @@ for i in range(10):
     name = str(i+1)+' '+ arr[i]['name']+ '.mp3'
     link = arr[i]['mp3Url']
 
-    urllib.request.urlretrieve(link, '. 163music\\'+name )
+    urllib.request.urlretrieve(link, 'music\\'+name )
 
     print(name + 'download compplete')
 
